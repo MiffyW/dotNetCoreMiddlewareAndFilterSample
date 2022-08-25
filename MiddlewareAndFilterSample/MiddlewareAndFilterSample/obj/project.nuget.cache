@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "G3v7EyG5p2vpQXBFSkFtRFYWCfon4lKX+6VP77Ey9ZAfCWZRpyWtKH6YK1HjYlHU/wdDOoQ7och2pCAq3hmo3g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\z004dy8x\\source\\repos\\MiddlewareAndFilterSample\\MiddlewareAndFilterSample\\MiddlewareAndFilterSample.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\z004dy8x\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.22\\microsoft.netcore.app.host.win-x64.3.1.22.nupkg.sha512"
+  ],
+  "logs": []
+}
