@@ -1,14 +1,12 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using MiddlewareAndFilterSample.Filters;
 using MiddlewareAndFilterSample.Models;
-using System;
-using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace MiddlewareAndFilterSample.Controllers
 {
+    [ServiceFilter(typeof(SampleActionFilter))]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
@@ -18,6 +16,7 @@ namespace MiddlewareAndFilterSample.Controllers
             _logger = logger;
         }
 
+        [ServiceFilter(typeof(SampleAsyncActionFilter))]
         public IActionResult Index()
         {
             return View();
